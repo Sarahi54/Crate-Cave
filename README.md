@@ -31,7 +31,7 @@ your wireframes.
 The sections you should have here 
 
 ● Site Goals
-● Design choices
+● Design Choices, For heading font Oswald was used and overall font for the page is Roboto.
 ● User stories
 -As a User:
 -As a site Administrator:
@@ -84,9 +84,10 @@ Credits:
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 -Content:
+fonts.google.com for font options which were Oswald and Roboto
 
 -Media:
-https://unsplash.com/s/photos/dog - Dog Pictures Links
-https://unsplash.com/s/photos/dog-crate - Dog crate Picture Links
+https://unsplash.com for dog pictures
+
 
 -
