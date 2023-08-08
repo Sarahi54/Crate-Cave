@@ -23,6 +23,22 @@ This section of the website will include the full responsive links to the follow
 Crate-Cave 
 Positive association with crate training.
 
+UX/UI Section:
+----DELETE----This section is for you the designer and developer to show 
+the intention of your sight. This is the place in your README 
+to explain the goal of your sight, design choices and link 
+your wireframes.  
+The sections you should have here 
+
+● Site Goals
+● Design choices
+● User stories
+-As a User:
+-As a site Administrator:
+● Wireframes
+● Database structure(PP3, PP4, PP5)
+
+
 -Ethos Section:
 Why is Crate training important?
 1.
@@ -30,10 +46,16 @@ Why is Crate training important?
 3.
 4.
 
--??(Meet up times on love running project)
 -The Footer:
+Here I've included the links to our social media pages available , make sure to sign up! 
+**** Include Picture of Footer ****
 
 -Gallery & How to Page:
+ Include 4 picture of dogs in crates & dogs playing to give the user a friendly association with crates and pets. 
+ ****PICTURES ON WEBSITE****
+ Simple steps on getting your dog to trust and associate positivily with their crate.
+ 
+ 
 
 -Sign up Page:
 
@@ -64,5 +86,7 @@ You can break the credits section up into Content and Media, depending on what y
 -Content:
 
 -Media:
+https://unsplash.com/s/photos/dog - Dog Pictures Links
+https://unsplash.com/s/photos/dog-crate - Dog crate Picture Links
 
 -
