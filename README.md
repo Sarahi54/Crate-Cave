@@ -6,19 +6,19 @@ Crate-Cave is a website designed to assist first-time dog owners in setting up a
 -----INSERT PICTURE OF DIFF. SCREENS-----
 
 FEATURES:
-----(DELETE)----In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
--Navigation Bar:
+∙Navigation
 The navigation bar will have four sections, making it easy for the user to navigate through each page on the Crate-Cave website.
 
 This section of the website will include the full responsive links to the following tabs:
  *Home: where the user will find reasoning on why crate training may be helpful
+ *About Us : We will advice the user detail of puppy classes time and day.
  *Guide: where the user may find the methods on how to crate train
- *Products: this section will provide a gallery and links to diffrent selections of dog crates and useful items
  *Signup: the page where the user may sign up to receive newsletters.
 
+ ****PICTURE OF NAV BAR****
+
 -The landing page image:
------MAYBE DOG In a CAVE or a Wolf in a CAVE , find a friendly inviting Photo as a backgfround-----
+-----DOG in Crate , find a friendly inviting Photo as a backgfround-----
 ****Text Overlay****
 Crate-Cave 
 Positive association with crate training.
