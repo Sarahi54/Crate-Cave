@@ -18,6 +18,7 @@ h1,h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    border: 5px solid black;
 }
 
 #logo {
