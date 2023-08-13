@@ -3,7 +3,7 @@ Crate training for your pet (PP1)
 
 Crate-Cave is a website designed to assist first-time dog owners in setting up a routine and structure for their new furry family members. The site will provide a guide and information on why crate training is beneficial, regardless of whether they are first-time pet owners. Crate-Cave is also meant to inform pet owners about why crate training can also help their pets adjust to their new home and space , by helping them build a safe area for their dogs.
 
------INSERT PICTURE OF DIFF. SCREENS-----
+-----INSERT PICTURE OF Mockup-----
 
 FEATURES:
 ∙Navigation
@@ -84,10 +84,11 @@ Credits:
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 -Content:
-fonts.google.com for font options which were Oswald and Roboto
+
 
 -Media:
 https://unsplash.com for dog pictures
+fonts.google.com for font options which were Oswald and Roboto
 
 
 -
