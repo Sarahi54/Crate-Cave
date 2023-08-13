@@ -22,6 +22,8 @@ h1,h2 {
     text-align: center;
 }
 
+
+
 #logo {
     float: left;
     font-size: 280%;
@@ -127,8 +129,6 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    border: none;
-
 }
 
 .right-about-heading {
@@ -155,3 +155,34 @@ hr {
 .left-about-heading p {
     text-align: left;
 }
+
+#welcome {
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    height: 100%;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+h3 {
+    
+    border-bottom:  solid;
+    text-align: center;
+}
+    
