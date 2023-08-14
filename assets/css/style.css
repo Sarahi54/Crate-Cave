@@ -184,8 +184,9 @@ hr {
 h3 {
     
     border-bottom:  solid;
-    font-size: 150%;
-    text-align: center;
+    font-size: 200%;
+    text-align: left;
+    
     
 }
 
@@ -214,3 +215,42 @@ footer {
     padding-top: 4rem;
 }
 
+li {
+    list-style-position: inside;
+    padding: 1%;
+    
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px;
+        margin: 0;
+
+    }
+
+    #lef-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
