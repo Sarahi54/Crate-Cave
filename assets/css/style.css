@@ -253,6 +253,14 @@ li {
     hr {
         display: none;
     }
+
+    /* Might Remove!!!! */
+    #how-to-crate-train > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -288,6 +296,17 @@ li {
     }
 
   
+}
+
+/* Image Crate-Train Section */
+
+#crate-train {
+    background-image: url(../images/dogs_linedup_pinkWall.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+   
 }
 
 
