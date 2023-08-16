@@ -128,7 +128,7 @@ hr {
 .left-about-heading {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 40px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -136,22 +136,22 @@ hr {
 .right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 40px;
     clear: both;
     margin-bottom: 50px;
     border: none;
 }
 
-.right-about-heading h2 {
-    text-align: right;
+.right-about-heading h3 {
+    text-align: center;
 }
 
 .right-about-heading p {
     text-align: right;
 }
 
-.left-about-heading h2 {
-    text-align: left;
+.left-about-heading h3 {
+    text-align: center;
 }
 
 .left-about-heading p {
@@ -187,12 +187,10 @@ h3 {
     border-bottom:  solid;
     font-size: 200%;
     text-align: left;
-    
-    
 }
 
 footer {
-    height: 150px;
+    height: 6em;
 }
 
 .social-networks {
@@ -213,14 +211,31 @@ footer {
 /* Internal Links for Tabs */
 
 #sign-up, #how-to-crate-train {
-    padding-top: 4rem;
-}
-
-li {
-    list-style-position: inside;
-    padding: 1%;
+    padding-top: 5%;
     
 }
+
+ol {
+    list-style-position: inside;
+    padding-bottom: 100%;
+    padding: 1%;
+    border: #252525;
+    border-bottom: 1rem solid;
+    border-top: 1rem solid;
+    
+}
+
+ol {
+    background: #3e83a2;
+    padding: 20px;
+  }
+
+  ol li {
+    background: #3e97a2;
+    color: white;
+    padding: 5px;
+    margin-left: 35px;
+  }
 
 /* Media queries */
 
@@ -320,8 +335,8 @@ main {
 /* Form */
 
 #sign-up {
-    background-image: url('../images/dogs_linedup_pinkWall.jpg');
-    background-size: 100% 100%;
+    background-image: url('../images/sign-up-picture.jpg');
+    background-size: 100%;
     background-position: center;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
