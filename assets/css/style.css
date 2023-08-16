@@ -61,6 +61,15 @@ h1,h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Main content */
+
+menu {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Hero Image */
 
 #hero-outer {
@@ -254,13 +263,7 @@ li {
         display: none;
     }
 
-    /* Might Remove!!!! */
-    #how-to-crate-train > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
+  
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -301,12 +304,24 @@ li {
 /* Image Crate-Train Section */
 
 #crate-train {
-    background-image: url(../images/dogs_linedup_pinkWall.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url(../images/sign-up-picture.jpg);
+    background-repeat: repeat;
+    background-size: cover;
     background-position: center;
+    width: 100%;
     overflow: hidden;
-   
+    
 }
+
+/* Sign-up Main */
+
+#sign-up {
+    background-image: url('../images/dogs_linedup_pinkWall.jpg');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
 
 
