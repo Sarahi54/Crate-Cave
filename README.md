@@ -47,14 +47,20 @@ The sign up sections allows users to register with first name, last name and ema
 ![Signup-box](/assets/images/sign-up-picture.jpg "signup box with background")
 
 TESTING:
------(DELETE)----In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 -Validator Testing:
  * HTML
+   - No errors were returned when passing through the official W3C validator
  * CSS
+   - No errors were found when passing through the official (Jigsaw) validator
+ * Accessibillity
+   - Based on lighthouse results I can confirm that the colors and font are easy to read. Based on size of images lighthouse performance score was listed as 77. 
+
+![lighthouse score](/assets/images/lighthouse-test.png)
+
+- During deployment from github my css was not originally showing up on live website. I was able to identify issue as file paths were only relative had to change them to absolute file paths in order to see css design. 
+
+
 
 -Unfixed Bugs:
 
@@ -64,15 +70,17 @@ The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab, From there go into Pages tab on left side, select the Main Branch Once the main branch has been selected, refresh page after a few minutes and a display with site url will appear at top of page. The live link can be found here - https://sarahi54.github.io/Crate-Cave/
 
 Credits:
----(DELETE)----In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 -Content:
+
+- Used Social Media code from Love Running Project. 
+- Alot of the structure of my PP1 came from Love Running Project , such as my Ethos-club section. I used similar structure learned from my Love Running project.
 
 
 -Media:
 https://unsplash.com for dog pictures
-fonts.google.com for font options which were Oswald and Roboto
+https://fonts.google.com for font options which were Oswald and Roboto
+
 
 
 -
