@@ -1,13 +1,14 @@
 # Crate-Cave
 Crate training for your pet (PP1)
 
-Crate-Cave is a website designed to assist first-time dog owners in setting up a routine and structure for their new furry family members. The site will provide a guide and information on why crate training is beneficial, regardless of whether they are first-time pet owners. Crate-Cave is also meant to inform pet owners about why crate training can also help their pets adjust to their new home and space , by helping them build a safe area for their dogs.
+Crate-Cave is a website designed to assist first-time dog owners in setting up a routine and structure for their new furry family members. The site will provide a guide and information on why crate training is beneficial, regardless of whether or not they are first-time pet owners. Crate-Cave is also meant to inform pet owners about why crate training can also help their pets adjust to their new home and space , by helping them build a safe area for their dogs.
 
 ![mockup generator](/assets/images/website-mockup.png "screenshot of mockup generator")
 
 FEATURES:
+
 ∙Navigation
-The navigation bar will have four sections, making it easy for the user to navigate through each page on the Crate-Cave website.
+The navigation bar will have three sections, making it easy for the user to navigate through the internal links on the Crate-Cave website.
 
 This section of the website will include the full responsive links to the following tabs:
  *Home: where the user will find reasoning on why crate training may be helpful
@@ -18,7 +19,7 @@ This section of the website will include the full responsive links to the follow
 
 UX/UI Section:
 ● Site Goals : Inform user about why crate training is positive for dogs despite the negative stigma related to crates.
-● Design Choices, For heading font Oswald was used and overall font for the page is Roboto.
+● Design Choices, For heading font Oswald was used and overall font for the page is Roboto. Scroll down website easy to use that included internal links on navigation bar.
 ● User stories
 -As a User: they go into the website and can easily find information about the postivity behind crate training and how to get started.
 -As a site Administrator: the website is clear and straight to the point. Easy to manoeuvre through it.
@@ -44,7 +45,8 @@ Here I've included the links to our social media pages available with the media 
  Sign up Page:
 The sign up sections allows users to register with first name, last name and email. Submit button has been added to box. Included friendly inviting background image.
 
-![Signup-box](/assets/images/sign-up-picture.jpg "signup box with background")
+![Signup-box](/assets/images/signup-section.png "signup box with background")
+
 
 TESTING:
 
@@ -58,15 +60,24 @@ TESTING:
 
 ![lighthouse score](/assets/images/lighthouse-test.png "screenshot of lighthouse test")
 
+Tested social media links located in the footer each link was clicked and new tab was opened with its oficial website corresponding to social media logo. 
+
+![Footer-image-social-media](/assets/images/footer.png "Social-Media-Links")
+
+Successfully tested sign up portal and was able to submit without issue. Also tested required fields successfully.
+
+![signup-submit](/assets/images/signup-submit.png "tested signup portal")
+
+
 Debugging:
 
-- During deployment from github my css was not originally showing up on live website. I was able to identify issue as file paths were only relative had to change them to absolute file paths in order to see css design. 
+When completing the website deployment from github the css code was not displaying on the live website. After looking at the HTML code I identified the problem and implemented a soloution. The root cause was that I failed to place the absolute file path for the internal links shown in the picture below.
 
 ![absolute path change](/assets/images/absolutepaths.png "screenshot of new code")
 
 
 -Unfixed Bugs:
-I initially created my website by graceful degradation and once I realised of the the mistake I was unable to debug issues and create a media for mobile devices. Unfortinatly due to misjudged time management I was unable to debug this part of my code. As seen on the mockup generator the website works for tablets and laptops succesfully, but the club-ethos section is not fully visable on a mobile device.
+I initially created my website by graceful degradation. Unfortinatly due to my misjudged time management I was unable to create the correct media code for mobile devices. As seen on the mockup generator the website works for tablets,laptops and desktops succesfully, but the club-ethos section is not fully visable on a mobile device.
 ![heading](/assets/images/mobile-device-heading.png "mobile-device-heading")
 ![ethos section](/assets/images/mobile-device-ethos.png "mobile-device-ethos")
 ![main section](/assets/images/mobile-device-howtocratetrain.png "mobile-device-main")
@@ -76,19 +87,21 @@ I initially created my website by graceful degradation and once I realised of th
 Deployment:
 ![Deployment](/assets/images/deployment-display.png "screenshot of github")
 The steps to deploy are as follows: 
-In the GitHub repository, navigate to the Settings tab, From there go into Pages tab on left side, select the Main Branch Once the main branch has been selected, refresh page after a few minutes and a display with site url will appear at top of page. The live link can be found here - https://sarahi54.github.io/Crate-Cave/
+In the GitHub repository, navigate to the Settings tab, From there go into the Pages tab on left side, select the Main Branch Once the main branch has been selected, refresh the page after a few minutes and a display with site url will appear at top of page. The live link can be found here - https://sarahi54.github.io/Crate-Cave/
 
 Credits:
 
 -Content:
 
-- Used Social Media code from Love Running Project. 
-- Alot of the structure of my PP1 came from Love Running Project , such as my Ethos-club section. I used similar structure learned from my Love Running project.
+- Used Social Media code from Love Running Project in order to display logos and links.
+- Alot of the structure of my PP1 came from the Love Running Project guide, such as my Ethos-club section. I used similar structure learned from my Love Running project.
 
 
 -Media:
 https://unsplash.com for dog pictures
 https://fonts.google.com for font options which were Oswald and Roboto
+https://www.akc.org used as refrence for crate training guide
+https://www.uk.pedigree.com used as refrence for crate training guide 
 
 
 
