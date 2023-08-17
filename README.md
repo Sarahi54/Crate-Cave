@@ -56,10 +56,11 @@ TESTING:
  * Accessibillity
    - Based on lighthouse results I can confirm that the colors and font are easy to read. Based on size of images lighthouse performance score was listed as 77. 
 
-![lighthouse score](/assets/images/lighthouse-test.png)
+![lighthouse score](/assets/images/lighthouse-test.png "screenshot of lighthouse test")
 
 - During deployment from github my css was not originally showing up on live website. I was able to identify issue as file paths were only relative had to change them to absolute file paths in order to see css design. 
 
+![absolute path change](/assets/images/absolute%20paths.png "screenshot of new code")
 
 
 -Unfixed Bugs:
