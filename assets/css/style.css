@@ -1,34 +1,41 @@
+/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: border-box;
 }
 
+/* General Style */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
 header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+   padding: 0 1rem;
+   position: fixed;
+   display: flex;
+   z-index: 99;
+   width: 100%;
+   box-shadow: 0 2px 2px #3a3a3a;
 }
 
-nav > ul {
-    display: flex;
+header a {
+    text-decoration: none;
+    color: inherit;
 }
+
+
 /* headings and logo */
 
 
-h1,
-h2 {
-    font-family: Oswald, sans-serif;
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
     border: 5px solid black;
     text-align: center;
@@ -43,18 +50,34 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 4px;
+    list-style-type: none;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
-#menu li {
-    list-style-type: none;
-    margin-right: 30px;
+#menu > li {
+    /* list-style-type: none; */
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar dropdown */
+
+nav {
+    position: absolute;
+    background-color: #fafafa;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 #menu a {
@@ -66,9 +89,6 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 
 /* Hero Image */
