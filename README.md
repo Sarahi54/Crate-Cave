@@ -3,7 +3,7 @@ Crate training for your pet (PP1)
 
 Crate-Cave is a website designed to assist first-time dog owners in setting up a routine and structure for their new furry family members. The site will provide a guide and information on why crate training is beneficial, regardless of whether they are first-time pet owners. Crate-Cave is also meant to inform pet owners about why crate training can also help their pets adjust to their new home and space , by helping them build a safe area for their dogs.
 
------INSERT PICTURE OF Mockup-----
+![mockup generator](/assets/images/website-mockup.png "screenshot of mockup generator")
 
 FEATURES:
 ∙Navigation
@@ -58,12 +58,20 @@ TESTING:
 
 ![lighthouse score](/assets/images/lighthouse-test.png "screenshot of lighthouse test")
 
+Debugging:
+
 - During deployment from github my css was not originally showing up on live website. I was able to identify issue as file paths were only relative had to change them to absolute file paths in order to see css design. 
 
-![absolute path change](/assets/images/absolute%20paths.png "screenshot of new code")
+![absolute path change](/assets/images/absolutepaths.png "screenshot of new code")
 
 
 -Unfixed Bugs:
+I initially created my website by graceful degradation and once I realised of the the mistake I was unable to debug issues and create a media for mobile devices. Unfortinatly due to misjudged time management I was unable to debug this part of my code. As seen on the mockup generator the website works for tablets and laptops succesfully, but the club-ethos section is not fully visable on a mobile device.
+![heading](/assets/images/mobile-device-heading.png "mobile-device-heading")
+![ethos section](/assets/images/mobile-device-ethos.png "mobile-device-ethos")
+![main section](/assets/images/mobile-device-howtocratetrain.png "mobile-device-main")
+![signup section](/assets/images/mobile-device-signup.png "mobile-device-signup")
+
 
 Deployment:
 ![Deployment](/assets/images/deployment-display.png "screenshot of github")
@@ -84,4 +92,4 @@ https://fonts.google.com for font options which were Oswald and Roboto
 
 
 
--
+
