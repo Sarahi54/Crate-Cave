@@ -59,12 +59,9 @@ If this section grows too long, you may want to split it off into a separate fil
 -Unfixed Bugs:
 
 Deployment:
------(DELETE)-----This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+![Deployment](/assets/images/deployment-display.png "screenshot of github")
+The steps to deploy are as follows: 
+In the GitHub repository, navigate to the Settings tab, From there go into Pages tab on left side, select the Main Branch Once the main branch has been selected, refresh page after a few minutes and a display with site url will appear at top of page. The live link can be found here - https://sarahi54.github.io/Crate-Cave/
 
 Credits:
 ---(DELETE)----In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
