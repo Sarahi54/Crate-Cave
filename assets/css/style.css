@@ -17,10 +17,12 @@ body {
 header {
    padding: 0 1rem;
    position: fixed;
-   display: flex;
    z-index: 99;
    width: 100%;
    box-shadow: 0 2px 2px #3a3a3a;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
 }
 
 header a {
@@ -60,7 +62,6 @@ h1, h2 {
 }
 
 #menu > li {
-    /* list-style-type: none; */
     margin-bottom: 1em;
 }
 
@@ -78,6 +79,25 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+#nav-toggle {
+    display: none;
+
+}
+
+.nav-toggle-label {
+    font-size: 5rem;
+}
+
+main {
+    margin-top: 47px;
 }
 
 #menu a {
@@ -265,6 +285,48 @@ ol li {
 
 /* Media queries */
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+     /* Header */
+     nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+     }
+
+     #menu {
+        display: flex;
+     }
+
+     #menu > li {
+        padding-left: 1rem;
+     }
+
+     .nav-toggle-label {
+        display: none;
+     }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -399,24 +461,5 @@ ol li {
     color: #fafafa;
 }
 
-/* Media query: tablets and larger (768px and up) */
- @media screen and (min-width: 768px) {
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
 
-    #signup-form {
-        max-width: 400px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
 }
